@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-26T11:00:00Z",
+  "src_ip": "10.0.0.30",
+  "dst_ip": "172.16.0.30",
+  "src_port": 54321,
+  "dst_port": 443,
+  "protocol": "TCP",
+  "action": "allow"
+}

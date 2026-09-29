@@ -1,0 +1,58 @@
+# =========================
+# LogX - Root Git Ignore
+# =========================
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# SQLite / local runtime database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Frontend build output
+frontend/dist/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker / temporary files
+*.tar
+*.tar.gz
+
+# Test / temporary files
+*.tmp
+*.temp
+
+# Local project artifacts
+project-tree.txt

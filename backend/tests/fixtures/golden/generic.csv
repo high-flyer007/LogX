@@ -1,0 +1,2 @@
+timestamp,src_ip,dst_ip,src_port,dst_port,protocol,action
+2026-09-26T11:00:00Z,10.0.0.31,172.16.0.31,54321,443,TCP,allow
