@@ -16,6 +16,8 @@ import {
   X,
 } from "lucide-react";
 
+import logxLogo from "../../assets/logx-logo.png";
+
 import { NavLink, Outlet } from "react-router-dom";
 
 
@@ -102,32 +104,13 @@ function Sidebar() {
 
       {/* Logo */}
 
-      <div className="flex h-[78px] items-center border-b border-white/[0.07] px-6">
+      <div className="flex h-[78px] items-center border-b border-white/[0.07] px-4">
 
-        <div className="flex items-center gap-3">
-
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl border border-cyan-400/20 bg-cyan-400/10">
-
-            <ShieldCheck
-              size={21}
-              className="text-cyan-300"
-            />
-
-          </div>
-
-          <div>
-
-            <div className="text-lg font-bold tracking-[0.18em] text-white">
-              LOGX
-            </div>
-
-            <div className="text-[9px] uppercase tracking-[0.18em] text-slate-500">
-              Security Telemetry
-            </div>
-
-          </div>
-
-        </div>
+        <img
+          src={logxLogo}
+          alt="LOGX Security Telemetry"
+          className="w-[230px] h-[64px] object-contain"
+        />
 
       </div>
 
